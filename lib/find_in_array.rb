@@ -1,7 +1,3 @@
 def find_element_index(array, value_to_find)
-  if array.include?(value_to_find)
-    return
-  else
-    return nil
-  end
+  array.index(value_to_find)
 end
